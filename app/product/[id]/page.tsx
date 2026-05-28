@@ -46,24 +46,19 @@ export default async function ProductDetailPage({
               </div>
             </div>
 
-            {/* Product Details */}
             <div className="flex flex-col justify-center p-8 lg:p-12">
-              {/* Product ID */}
               <span className="mb-4 w-fit rounded-full bg-indigo-100 px-4 py-2 text-sm font-semibold text-indigo-700">
                 Product #{product.id}
               </span>
 
-              {/* Title */}
               <h1 className="text-4xl font-bold text-gray-900 md:text-5xl">
                 {product.title}
               </h1>
 
-              {/* Description */}
               <p className="mt-6 text-lg leading-8 text-gray-600">
                 {product.description}
               </p>
 
-              {/* Price */}
               <div className="mt-8 flex items-center gap-4">
                 <h2 className="text-5xl font-extrabold text-green-600">
                   ${product.price}
@@ -75,7 +70,6 @@ export default async function ProductDetailPage({
                 </span>
               </div>
 
-              {/* Extra Details */}
               <div className="mt-8 space-y-4 border-t pt-6 text-gray-700">
                 <div className="flex items-center gap-3">
                   <Truck

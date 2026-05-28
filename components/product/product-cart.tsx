@@ -11,7 +11,6 @@ export default function ProductCardComponent({
   return (
     <Link href={`/product/${id}`}>
       <div className="cursor-pointer overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-md transition duration-300 hover:-translate-y-2 hover:shadow-xl">
-        {/* Product Image */}
         <div className="h-56 overflow-hidden bg-gray-100">
           <img
             src={images}
@@ -20,7 +19,6 @@ export default function ProductCardComponent({
           />
         </div>
 
-        {/* Content */}
         <div className="p-5">
           <span className="rounded-full bg-blue-100 px-3 py-1 text-sm font-medium text-blue-700">
             Product #{id}
